@@ -30,6 +30,11 @@ header.uk-section {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+div#welcomeImg {
+    background-image: url(images/James.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 div.main {
     padding-top: 140px;
 }
