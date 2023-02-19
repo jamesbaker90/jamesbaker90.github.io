@@ -24,7 +24,7 @@ header h1 {
     /*width: 250px;*/
 }
 header div.subtitle {
-    color: #aaa;
+    color: #9e9e9e;
     padding: 29px 20px;
     display: none;
 }
@@ -87,13 +87,16 @@ ul.skills li {
     padding: 10px;
     margin-right: 2px;
 }
+div.experience p {
+    color: white;
+}
 ul.skills-experienced li {
     border: 1px solid #1e87f0;
 }
-div.experience div.logo {
+div.work div.logo {
     height: 80px;
 }
-div.experience img {
+div.work img {
     max-height: 80px;
     width: auto;
 }
