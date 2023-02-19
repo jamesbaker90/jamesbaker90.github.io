@@ -15,26 +15,40 @@ header h1 {
     font-weight: lighter;
     padding: 20px;
     font-size: 32px;
-    width: 250px;
+    /*width: 250px;*/
 }
 header div.subtitle {
     color: #aaa;
     padding: 29px 20px;
+    display: none;
+}
+div.subtitle-main {
+    text-align: center;
+    margin-top: -50px;
+    padding: 20px;
+}
+@media only screen and (min-width: 810px){
+    header div.subtitle {
+        display: inline-block;
+    }
+    div.subtitle-main {
+        display: none;
+    }
 }
 header div#headerBtns {
     padding: 23px 20px;
-    width: 250px;
+    /*width: 250px;*/
     text-align: right;
 }
 header.uk-section {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div#welcomeImg {
+/*div#welcomeImg {
     background-image: url(images/James.png);
     background-size: contain;
     background-repeat: no-repeat;
-}
+}*/
 div.main {
     padding-top: 140px;
 }
@@ -79,4 +93,15 @@ div.uk-section.nopadding {
 }
 div.contact-list span {
     margin-right: 30px;
+}
+.iframeVideo {
+	height: 0px;
+	padding-top: 25px;
+	padding-bottom: 56.2%;
+	position: relative;
+}
+.iframeVideo iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
