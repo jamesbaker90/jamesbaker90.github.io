@@ -15,7 +15,7 @@ header h1 {
     font-weight: lighter;
     padding: 20px;
     font-size: 32px;
-    width: 250px;
+    /*width: 250px;*/
 }
 header div.subtitle {
     color: #aaa;
@@ -23,7 +23,7 @@ header div.subtitle {
 }
 header div#headerBtns {
     padding: 23px 20px;
-    width: 250px;
+    /*width: 250px;*/
     text-align: right;
 }
 header.uk-section {
