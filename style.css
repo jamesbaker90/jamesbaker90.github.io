@@ -1,8 +1,11 @@
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 body {
     font-weight: lighter;
+}
+body, h1, h2, h3, h4, p {
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI", "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 header {
     display: flex;
